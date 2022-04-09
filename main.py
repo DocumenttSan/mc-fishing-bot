@@ -1,9 +1,9 @@
-from turtle import screensize
 import pyautogui
 from time import sleep
 
 def fish():
     while(True):
+        # absolute path
         dingdong = pyautogui.locateOnScreen(,'E:/Minecraft_fishingBot/asset/splash.png')
         print('works')
         if dingdong:

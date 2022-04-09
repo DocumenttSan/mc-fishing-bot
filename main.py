@@ -5,7 +5,7 @@ def fish():
     while(True):
         # absolute path
         dingdong = pyautogui.locateOnScreen(,'E:/Minecraft_fishingBot/asset/splash.png')
-        print('works')
+        # print('works')
         if dingdong:
             sleep(0.2)
             pyautogui.rightClick()
